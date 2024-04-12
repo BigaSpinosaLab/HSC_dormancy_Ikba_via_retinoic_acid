@@ -10,8 +10,8 @@ The repository is organized in the following subfolders:
 
 Scripts required to reproduce the complete RNAseq data analysis, specifically:
 
-- Data preprocessing: to obtain a raw expression matrix from FASTQ files. Scripts from 1 to 5.
-- Downstream analysis: to conduct differential expression analysis and functional analysis (GSEA). Scripts 6 and 7.
+- Data preprocessing: to obtain a raw expression matrix from FASTQ files. Scripts from 1 to 4.
+- Downstream analysis: to conduct differential expression analysis and functional analysis (GSEA). Scripts 5 and 6.
 
 To conduct data preprocessing, original FASTQ files are required. Please check GEO accession no. GSE188523. All required scripts were executed using Singularity images (v3.8.3) per each required tool.
 
