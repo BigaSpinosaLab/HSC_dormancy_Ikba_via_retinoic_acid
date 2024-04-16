@@ -17,4 +17,4 @@ To conduct data preprocessing, original FASTQ files are required. Please check G
 
 It is possible to directly conduct the downstream analysis if the corresponding raw expression matrix from GEO is downloaded. NOTE: Gene annotation files are required. For this analysis, these were retrieved from Ensembl (release 102, mm10).
 
-## CUT&Tag analysis folder
+## CUT&Tag data analysis folder
