@@ -26,6 +26,6 @@ CUT&Tag dataset includes two assays: one of IκBα and other for H3K27me3. Data 
 - BigWig files generation differently configured per assay. Scripts 4a and 4b.
 - Rest of scripts referred only to H3K27me3 assay where peak calling and TF discovery with STREME were conducted. Scripts 5 to 10.
   
-Please check GEO accession no. GSE188524 to access raw data (FASTQ) or processed files (i.e. BigWig or called peaks). All required scripts were executed using Singularity images (v3.8.3) per required tool.
+Please check GEO accession no. GSE188524 [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE188524] to access raw data (FASTQ) or processed files (i.e. BigWig or called peaks). All required scripts were executed using Singularity images (v3.8.3) per required tool.
 
 NOTE: Gene annotation files are required for annotating peaks to genes. For this analysis, these were retrieved from Ensembl (release 102, mm10).
