@@ -4,8 +4,6 @@ This repository includes scripts required for the bulk RNAseq and CUT&Tag data a
 
 The repository is organized in the following subfolders:
 
-## Main figures folder
-
 ## RNAseq data analysis folder
 
 Scripts required to reproduce the complete RNAseq data analysis, specifically:
@@ -18,6 +16,8 @@ To conduct data preprocessing, original FASTQ files are required. Please check G
 It is possible to directly conduct the downstream analysis if the corresponding raw expression matrix from GEO is downloaded. 
 NOTE: Gene annotation files are required. For this analysis, these were retrieved from Ensembl (release 102, mm10).
 
+REMARK: Script to conduct PreRanked GSEA on selected signatures also includes the code to generated the enrichment plots included in the publication.
+
 ## CUT&Tag data analysis folder
 
 CUT&Tag dataset includes two assays: one of IκBα and other for H3K27me3. Data was analyzed in the following manner:
@@ -29,3 +29,5 @@ CUT&Tag dataset includes two assays: one of IκBα and other for H3K27me3. Data 
 Please check GEO accession no. GSE188524 [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE188524] to access raw data (FASTQ) or processed files (i.e. BigWig or called peaks). All required scripts were executed using Singularity images (v3.8.3) per required tool.
 
 NOTE: Gene annotation files are required for annotating peaks to genes. For this analysis, these were retrieved from Ensembl (release 102, mm10).
+
+## Other (figures related)
