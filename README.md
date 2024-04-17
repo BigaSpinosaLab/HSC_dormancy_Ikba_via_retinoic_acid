@@ -31,3 +31,8 @@ Please check GEO accession no. GSE188524 [https://www.ncbi.nlm.nih.gov/geo/query
 NOTE: Gene annotation files are required for annotating peaks to genes. For this analysis, these were retrieved from Ensembl (release 102, mm10).
 
 ## Other (figures related)
+
+Two additional scripts to reproduce the following heatmaps:
+
+- Figure 3A: Heatmap with DEGs (bulk RNAseq) highlighting specific genes.
+- Figure 4D: Heatmap with Rarg targets expression levels for bulk RNAseq samples.
