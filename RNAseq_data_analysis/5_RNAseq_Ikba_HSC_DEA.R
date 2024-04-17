@@ -1,7 +1,7 @@
 ################################################################################
 ##        Title : RNAseq IkBa HSC dormancy - Thambyrajah R. et al. 2024
-##                "A critical requirement for IkBa in controlling dormancy in HSC
-##                 via retinoic acid during embryonic development"
+##                "IκBα controls dormancy in Hematopoietic Stem Cells via 
+##                retinoic acid during embryonic development"
 ##  Description : This script is for conducting Differential Expression Analysis 
 ##       Author : María Maqueda (mmaqueda@researchmar.net) at BigSpinLab
 ################################################################################
